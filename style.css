@@ -169,8 +169,14 @@ html{
    font-weight: bolder;
 }
 .card-img-top{
+   margin-top: 50px;
    height: 200px;
    width: 200px;
+}
+.f-image{
+   height: 220px;
+   width: 220px;
+   margin-top: 50px;
 }
 .project-section{
    height: 600px;
