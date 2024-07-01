@@ -4,7 +4,6 @@
    box-sizing: border-box;
    font-family: sans-serif;
    font-size: 20px;
-   background-color: #ebf7f6;
 }
 .navigation-bar{
    position: fixed;
@@ -12,7 +11,6 @@
    left: 0px;
    width: 100%;
    background: transparent;
-   background-filter: blur(20px);
    z-index: 5;
 }
 .mymenus{
@@ -26,22 +24,11 @@
 }
 .logo{
    font-family: sans-serif;
-   border: none;
-   width: 300px;
-    box-shadow: 0px 10px 20px skyblue;
    font-size: 30px;
-   
-}
-.res{
-    box-shadow: 0px 10px 20px gray;
-    width: 100px;
-    border-color: black;
-    border-radius: 2px;
-    margin-top: 40px;
-
-
+   color: royalblue;
 }
 .allsections{
+   margin-top: 50px;
    position: relative;
    top: 80px;
    width: 100%;
@@ -58,8 +45,6 @@ html{
 .home-section{
    background-image: url("https://png.pngtree.com/background/20221229/original/pngtree-light-blue-background-of-cloud-sea-and-starry-sky-picture-image_1994886.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     
    padding: 10px;
    height: 700px;
@@ -68,12 +53,8 @@ html{
 
 
 .myinfo{
-   border-color: black;
-   background-color: #ebf7f6;
-   border-radius: 20px;
-   border-style: solid;
    height: 450px;
-   padding-top: 30px;
+   
    width: 50%;
    margin: 10% 4%;
 }
@@ -89,8 +70,22 @@ html{
    font-size:30px;
    color: orangered;
 }
-
-
+.rsm{
+   height: 60px;
+   width: 120px;
+   margin: 20px 30px ;
+   border: none;
+   background-color: royalblue;
+   color: white;
+   border-radius: 10px;
+   font-family: Arial Black;
+}
+.rsm:hover{
+   background-color: white;
+   color: royalblue;
+   border: 3px solid royalblue;
+   transform: scale(1.1);
+}
 .about-section{
    padding-top: 10px;
    background-color: whitesmoke;
@@ -103,7 +98,8 @@ html{
 
 
 .aboutsect{
-   
+   background-image: url("https://images.squarespace-cdn.com/content/v1/552d7154e4b0bb5e3c1b33ec/1688591463237-KNDR1MKQVXE8EC1HC1R6/image.jpg?format=2500w");
+   background-repeat: no-repeat;
    padding: 10px;
    height: 500px;
 
@@ -173,9 +169,9 @@ html{
    height: 200px;
    width: 200px;
 }
-.fimage{
-   height: 20px;
-   width: 20px;
+.f-image{
+   height: 220px;
+   width: 220px;
    margin-top: 50px;
 }
 .project-section{
@@ -183,6 +179,8 @@ html{
 }
 .contact-section{
    border: 2px;
+   background-image: url("https://img.freepik.com/free-vector/white-abstract-background-paper-style_23-2148397572.jpg");
+   
    padding: 40px;
    padding-top: 20px;
 
@@ -214,10 +212,4 @@ box-shadow: 0px 10px 20px black  ;
 .form-group{
    padding-left: 100px;
    color: red;
-}
-.contact-form{
-    box-shadow: 0px 10px 20px skyblue;
-    margin: 30px;
-    margin-bottom: 10px;
-    top :50px;
 }
